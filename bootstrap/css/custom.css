@@ -29,6 +29,10 @@
 	  min-height: 400px;
 	}
 	
+	.foto {
+	  background-image: url("../../cat.png");
+	  opacity: 0.75;
+	}
 	.caption {
 	  position: absolute;
 	  left: 0;
