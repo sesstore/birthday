@@ -16,7 +16,7 @@
 	}
 	
 	.bgimg-1 {
-	  background-image: url("../asset/image/birthday.jpg");
+	  background-image: url("../asset/image/4051371.jpg");
 	  min-height: 100%;
 	}
 	/*
@@ -26,12 +26,12 @@
 	}
 	*/
 	.bgimg-2 {
-	  background-image: url("../asset/image/6.jpeg");
+	  background-image: url("../asset/image/rm222batch3-mind-03.jpg");
 	  min-height: 400px;
 	}
 
 	.bgimg-3 {
-	  background-image: url("../asset/image/8.jpeg");
+	  background-image: url("../asset/image/Birthday_6.jpg");
 	  min-height: 400px;
 	}
 	
@@ -249,6 +249,7 @@
 input#click {
   display: none;
 }
+
 .click {
   position: absolute;
   background-color: #e9c46a;
@@ -261,7 +262,10 @@ input#click {
   cursor: pointer;
 }
 
+
+
 .click:before {
+  font-weight:bold;
   content:"";
   position: absolute;
   width: 25px;
@@ -269,6 +273,7 @@ input#click {
   background-color: #e76f51;
   left:69px;
 }
+
 
 .click:after {
   content:"";
@@ -425,6 +430,8 @@ input#click {
 #click:checked ~ .sparkles {
   display: block;
 }
+
+
 
 /* arrow down */
 [data-ca3_icon]::before {
